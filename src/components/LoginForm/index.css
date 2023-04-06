@@ -1,0 +1,146 @@
+/* Write your CSS code here */
+.app-container {
+  margin: 0;
+}
+
+.responsive-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.website-logo-mobile-screen {
+  width: 200px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-mobile-screen {
+    width: 200px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: none;
+  }
+}
+
+.website-login-image {
+  width: 50%;
+  max-width: 700px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    border-radius: 4px;
+    padding: 42px;
+  }
+}
+
+.website-logo-desktop-screen {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-desktop-screen {
+    display: block;
+    width: 200px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label-input {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #475569;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.input-element {
+  width: 90%;
+  max-width: 270px;
+  height: 32px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  border: 0px;
+  background-color: #d7dfe9;
+  border-radius: 2px;
+  padding-left: 12px;
+}
+
+.input-element:hover,
+input:focus {
+  outline: none;
+}
+
+.required-label {
+  margin: 0px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #fa0202;
+}
+
+.login-button {
+  height: 34px;
+  width: 95%;
+  max-width: 270px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login-button:hover,
+.login-button:focus {
+  outline: none;
+}

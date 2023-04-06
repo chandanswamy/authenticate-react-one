@@ -1,0 +1,107 @@
+/* Write your CSS code here */
+.home-route {
+  min-height: 100vh;
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.home-content-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 600;
+  color: #1e293b;
+  text-align: center;
+  padding: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.home-mobile-image {
+  width: 80%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.home-desktop-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-mobile-image {
+    display: none;
+  }
+
+  .home-desktop-image {
+    display: block;
+    width: 50%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+  }
+}
+
+.home-description {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #64748b;
+  text-align: center;
+  padding: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.shop-now-button {
+  height: 42px;
+  width: 150px;
+  border: 0px;
+  background-color: #0967d2;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
