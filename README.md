@@ -1,6 +1,10 @@
-In this project, let's build **Nxt Trendz** app with authentication by applying the concepts we have learned till now. Access the Live Demo below:
+In this project, let's build **Nxt Trendz** app with authentication by applying the concepts we have learned till now. Access the
 
-<div><a href="https://ecomauauone.ccbp.tech/" /><div/>
+### Live Demo below:
+
+<div>
+    <a href="https://ecomauauone.ccbp.tech/" >React Authenticate Part One<a/>
+<div/>
 
 ### Refer to the image below:
 
